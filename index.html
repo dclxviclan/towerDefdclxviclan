@@ -4,6 +4,11 @@
   href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap"
   rel="stylesheet"
 />
+<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+	<script>
+  // Отправляет событие инициализации нативному клиенту
+       vkBridge.send('VKWebAppInit');
+     </script>
 <style>
   body {
     background-color: black;
